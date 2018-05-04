@@ -28,7 +28,7 @@ function Mover(x, y, id){
     if(this.id >= 0 && this.loc.dist(attr.loc) < 600){
       this.acc = p5.Vector.sub(attr.loc, this.loc);
       this.acc.normalize();
-      this.acc.mult(0.012);
+      this.acc.mult(0.0012);
     }
 
     if(this.loc.dist(attr.loc) < 150){ // check this
