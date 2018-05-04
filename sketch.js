@@ -7,7 +7,7 @@ var gamePaused = false;
 function setup() {
   var cnv = createCanvas(900, 800);
   cnv.position((windowWidth - width)/2, 30);
-  //background(225);
+  background(225);
 
   loadMovers(50);
   frameRate (50)
